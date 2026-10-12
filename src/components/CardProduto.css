@@ -1,0 +1,34 @@
+.card-produto {
+    background: #F4E5CE;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-produto-imagem {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card-produto-preco {
+    font-weight: bold;
+    color: blue;
+}
+
+.card-produto-botao {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.card-produto-botao:hover {
+    background-color: #2563eb;
+}
+
+.card-produto:hover {
+    transform: scale(1.2);
+}

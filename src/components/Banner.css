@@ -1,0 +1,31 @@
+.banner {
+    color: white;
+    padding: 70px 20px;
+    text-align: center;
+    background-image: url("C:\Users\maria\OneDrive\Desktop\Área de Trabalho\Faculdade\Desenvolvimento Web\Desenvolvimento Web 3\Loja de Livro\site\public\img\loja-virtual.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+
+}
+
+.banner-conteudo {
+    max-width: 800px;
+    margin: auto;
+}
+
+.banner h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+@media (max-width: 700px) {
+    .banner h2 {
+        font-size: 28px;
+    }
+}
